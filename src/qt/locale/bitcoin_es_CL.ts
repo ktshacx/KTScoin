@@ -142,8 +142,8 @@
         <translation>Cargando el index de bloques...</translation>
     </message>
     <message>
-        <source>Send coins to a Garlicoin address</source>
-        <translation>Enviar monedas a una dirección garlicoin</translation>
+        <source>Send coins to a Litecoin address</source>
+        <translation>Enviar monedas a una dirección litecoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -166,8 +166,8 @@
         <translation>Verificar mensaje....</translation>
     </message>
     <message>
-        <source>Garlicoin</source>
-        <translation>Garlicoin</translation>
+        <source>Litecoin</source>
+        <translation>Litecoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -186,7 +186,7 @@
         <translation>&amp;Mostrar/Ocultar</translation>
     </message>
     <message>
-        <source>Sign messages with your Garlicoin addresses to prove you own them</source>
+        <source>Sign messages with your Litecoin addresses to prove you own them</source>
         <translation>Firmar un mensaje para provar que usted es dueño de esta dirección</translation>
     </message>
     <message>
@@ -206,8 +206,8 @@
         <translation>Barra de pestañas</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and garlicoin: URIs)</source>
-        <translation>Pide pagos (genera codigos QR and garlicoin: URls)</translation>
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>Pide pagos (genera codigos QR and litecoin: URls)</translation>
     </message>
     <message>
         <source>Error</source>
@@ -318,6 +318,10 @@
         <translation>bienvenido</translation>
     </message>
     <message>
+        <source>Litecoin</source>
+        <translation>Litecoin</translation>
+    </message>
+    <message>
         <source>Error</source>
         <translation>Error</translation>
     </message>
@@ -363,8 +367,8 @@
         <translation>experto</translation>
     </message>
     <message>
-        <source>Automatically open the Garlicoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abre automáticamente el puerto del cliente Garlicoin en el router. Esto funciona solo cuando tu router es compatible con UPnP y está habilitado.</translation>
+        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abre automáticamente el puerto del cliente Litecoin en el router. Esto funciona solo cuando tu router es compatible con UPnP y está habilitado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -427,6 +431,10 @@
         <source>Confirm options reset</source>
         <translation>Confirmar reestablecimiento de las opciones</translation>
     </message>
+    <message>
+        <source>Error</source>
+        <translation>Error</translation>
+    </message>
     </context>
 <context>
     <name>OverviewPage</name>
@@ -459,7 +467,11 @@
         <source>%1 and %2</source>
         <translation>%1 y %2</translation>
     </message>
-    </context>
+    <message>
+        <source>unknown</source>
+        <translation>desconocido</translation>
+    </message>
+</context>
 <context>
     <name>QObject::QObject</name>
     </context>
@@ -587,14 +599,6 @@
         <translation>Comisión transacción:</translation>
     </message>
     <message>
-        <source>normal</source>
-        <translation>normal</translation>
-    </message>
-    <message>
-        <source>fast</source>
-        <translation>rapido</translation>
-    </message>
-    <message>
         <source>Send to multiple recipients at once</source>
         <translation>Enviar a múltiples destinatarios</translation>
     </message>
@@ -687,7 +691,7 @@
         <translation>Firma</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Garlicoin address</source>
+        <source>Sign the message to prove you own this Litecoin address</source>
         <translation>Firmar un mensjage para probar que usted es dueño de esta dirección</translation>
     </message>
     <message>
@@ -772,8 +776,8 @@
 </translation>
     </message>
     <message>
-        <source>Garlicoin Core</source>
-        <translation>garlicoin core</translation>
+        <source>Litecoin Core</source>
+        <translation>litecoin core</translation>
     </message>
     <message>
         <source>Error loading block database</source>
@@ -811,14 +815,6 @@
 </translation>
     </message>
     <message>
-        <source>Loading addresses...</source>
-        <translation>Cargando direcciónes...</translation>
-    </message>
-    <message>
-        <source>Invalid -proxy address: '%s'</source>
-        <translation>Dirección -proxy invalida: '%s'</translation>
-    </message>
-    <message>
         <source>Insufficient funds</source>
         <translation>Fondos insuficientes</translation>
     </message>
@@ -827,20 +823,12 @@
         <translation>Cargando el index de bloques...</translation>
     </message>
     <message>
-        <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Agrega un nodo para conectarse and attempt to keep the connection open</translation>
-    </message>
-    <message>
         <source>Loading wallet...</source>
         <translation>Cargando cartera...</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
         <translation>No es posible desactualizar la billetera</translation>
-    </message>
-    <message>
-        <source>Cannot write default address</source>
-        <translation>No se pudo escribir la dirección por defecto</translation>
     </message>
     <message>
         <source>Rescanning...</source>

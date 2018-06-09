@@ -14,8 +14,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Garlicoin</source>
-        <translation>Garlicoin</translation>
+        <source>Litecoin</source>
+        <translation>Litecoin</translation>
     </message>
     </context>
 <context>
@@ -32,6 +32,10 @@
     </context>
 <context>
     <name>Intro</name>
+    <message>
+        <source>Litecoin</source>
+        <translation>Litecoin</translation>
+    </message>
     </context>
 <context>
     <name>ModalOverlay</name>
@@ -156,8 +160,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Garlicoin Core</source>
-        <translation>Garlicoin Jezrga</translation>
+        <source>Litecoin Core</source>
+        <translation>Litecoin Jezrga</translation>
     </message>
     </context>
 </TS>

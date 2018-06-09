@@ -62,8 +62,12 @@
         <translation>آدرس های گیرنده</translation>
     </message>
     <message>
-        <source>These are your Garlicoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>اینها آدرس های شما برای فرستادن پرداخت هاست. همیشه قبل از فرستادن سکه ها مقدار و آدرس دریافت کننده را چک کنید.</translation>
+    </message>
+    <message>
+        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>این ها آدرس های litecoin شما برای دریافت پرداخت ها می باشد. توصیه میشود برای هر تراکنش از یک آدرس دریافت جدید استفاده کنید.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -80,6 +84,10 @@
     <message>
         <source>Export Address List</source>
         <translation>صدور لیست آدرس ها</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>فایل جدا شده با ویرگول(*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
@@ -298,8 +306,8 @@
         <translation>بازنشانی بلوک‌ها روی دیسک...</translation>
     </message>
     <message>
-        <source>Send coins to a Garlicoin address</source>
-        <translation>ارسال وجه به نشانی Garlicoin</translation>
+        <source>Send coins to a Litecoin address</source>
+        <translation>ارسال وجه به نشانی Litecoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -322,8 +330,8 @@
         <translation>با&amp;زبینی پیام...</translation>
     </message>
     <message>
-        <source>Garlicoin</source>
-        <translation>Garlicoin</translation>
+        <source>Litecoin</source>
+        <translation>Litecoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -350,12 +358,12 @@
         <translation>رمزنگاری کلیدهای خصوصی متعلق به کیف پول شما</translation>
     </message>
     <message>
-        <source>Sign messages with your Garlicoin addresses to prove you own them</source>
-        <translation>برای اثبات اینکه پیام‌ها به شما تعلق دارند، آن‌ها را با نشانی Garlicoin خود امضا کنید</translation>
+        <source>Sign messages with your Litecoin addresses to prove you own them</source>
+        <translation>برای اثبات اینکه پیام‌ها به شما تعلق دارند، آن‌ها را با نشانی Litecoin خود امضا کنید</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Garlicoin addresses</source>
-        <translation>برای حصول اطمینان از اینکه پیام با نشانی Garlicoin مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
+        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
+        <translation>برای حصول اطمینان از اینکه پیام با نشانی Litecoin مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -374,8 +382,8 @@
         <translation>نوارابزار برگه‌ها</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and garlicoin: URIs)</source>
-        <translation>درخواست پرداخت ( تولید کد کیوار و ادرس garlicoin)</translation>
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>درخواست پرداخت ( تولید کد کیوار و ادرس litecoin)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -386,16 +394,16 @@
         <translation>نمایش لیست آدرس های دریافت و لیبل ها</translation>
     </message>
     <message>
-        <source>Open a garlicoin: URI or payment request</source>
-        <translation>بازکردن یک garlicoin: آدرس یا درخواست پرداخت</translation>
+        <source>Open a litecoin: URI or payment request</source>
+        <translation>بازکردن یک litecoin: آدرس یا درخواست پرداخت</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>گزینه‌های خط‌فرمان</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Garlicoin network</source>
-        <translation><numerusform>%n ارتباط فعال با شبکهٔ Garlicoin</numerusform></translation>
+        <source>%n active connection(s) to Litecoin network</source>
+        <translation><numerusform>%n ارتباط فعال با شبکهٔ Litecoin</numerusform></translation>
     </message>
     <message>
         <source>Processing blocks on disk...</source>
@@ -642,8 +650,8 @@
         <translation>ویرایش آدرس قرستنده</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Garlicoin address.</source>
-        <translation>نشانی وارد شده "%1" یک نشانی معتبر Garlicoin نیست.</translation>
+        <source>The entered address "%1" is not a valid Litecoin address.</source>
+        <translation>نشانی وارد شده "%1" یک نشانی معتبر Litecoin نیست.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -743,6 +751,10 @@
         <translation>استفاده از یک مسیر سفارشی:</translation>
     </message>
     <message>
+        <source>Litecoin</source>
+        <translation>Litecoin</translation>
+    </message>
+    <message>
         <source>Error</source>
         <translation>خطا</translation>
     </message>
@@ -824,14 +836,6 @@
         <translation>مگابایت</translation>
     </message>
     <message>
-        <source>Accept connections from outside</source>
-        <translation>پذیرش اتصالات از بیرون</translation>
-    </message>
-    <message>
-        <source>Allow incoming connections</source>
-        <translation>اجازه دادن به اتصالات دریافتی</translation>
-    </message>
-    <message>
         <source>Reset all client options to default.</source>
         <translation>بازنشانی تمام تنظیمات به پیش‌فرض.</translation>
     </message>
@@ -852,8 +856,8 @@
         <translation>استخراج</translation>
     </message>
     <message>
-        <source>Automatically open the Garlicoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>باز کردن خودکار درگاه شبکهٔ Garlicoin روی روترها. تنها زمانی کار می‌کند که روتر از پروتکل UPnP پشتیبانی کند و این پروتکل فعال باشد.</translation>
+        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>باز کردن خودکار درگاه شبکهٔ Litecoin روی روترها. تنها زمانی کار می‌کند که روتر از پروتکل UPnP پشتیبانی کند و این پروتکل فعال باشد.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -936,6 +940,10 @@
         <translation>تأییدِ بازنشانی گزینه‌ها</translation>
     </message>
     <message>
+        <source>Error</source>
+        <translation>خطا</translation>
+    </message>
+    <message>
         <source>This change would require a client restart.</source>
         <translation>برای این تغییرات بازنشانی مشتری ضروری است</translation>
     </message>
@@ -951,8 +959,8 @@
         <translation>فرم</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Garlicoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>اطلاعات نمایش‌داده شده ممکن است قدیمی باشند. بعد از این که یک اتصال با شبکه برقرار شد، کیف پول شما به‌صورت خودکار با شبکهٔ Garlicoin همگام‌سازی می‌شود. اما این روند هنوز کامل نشده است.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>اطلاعات نمایش‌داده شده ممکن است قدیمی باشند. بعد از این که یک اتصال با شبکه برقرار شد، کیف پول شما به‌صورت خودکار با شبکهٔ Litecoin همگام‌سازی می‌شود. اما این روند هنوز کامل نشده است.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1008,7 +1016,15 @@
     </context>
 <context>
     <name>PeerTableModel</name>
-    </context>
+    <message>
+        <source>Sent</source>
+        <translation>ارسال شده</translation>
+    </message>
+    <message>
+        <source>Received</source>
+        <translation>دریافتی</translation>
+    </message>
+</context>
 <context>
     <name>QObject</name>
     <message>
@@ -1016,8 +1032,8 @@
         <translation>مبلغ</translation>
     </message>
     <message>
-        <source>Enter a Garlicoin address (e.g. %1)</source>
-        <translation>یک آدرس Garlicoin وارد کنید (مثلاً %1)</translation>
+        <source>Enter a Litecoin address (e.g. %1)</source>
+        <translation>یک آدرس Litecoin وارد کنید (مثلاً %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1051,7 +1067,27 @@
         <source>%1 and %2</source>
         <translation>%1 و %2</translation>
     </message>
-    </context>
+    <message>
+        <source>%1 B</source>
+        <translation>%1 بایت</translation>
+    </message>
+    <message>
+        <source>%1 KB</source>
+        <translation>%1 کیلوبایت</translation>
+    </message>
+    <message>
+        <source>%1 MB</source>
+        <translation>%1 مگابایت</translation>
+    </message>
+    <message>
+        <source>%1 GB</source>
+        <translation>%1 گیگابایت</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ناشناس</translation>
+    </message>
+</context>
 <context>
     <name>QObject::QObject</name>
     </context>
@@ -1199,30 +1235,6 @@
     <message>
         <source>Ban for</source>
         <translation>محدود شده برای</translation>
-    </message>
-    <message>
-        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>دکمه‌های بالا و پایین برای پیمایش تاریخچه و &lt;b&gt;Ctrl-L&lt;/b&gt; برای پاک کردن صفحه.</translation>
-    </message>
-    <message>
-        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>برای نمایش یک مرور کلی از دستورات ممکن، عبارت &lt;b&gt;help&lt;/b&gt; را بنویسید.</translation>
-    </message>
-    <message>
-        <source>%1 B</source>
-        <translation>%1 بایت</translation>
-    </message>
-    <message>
-        <source>%1 KB</source>
-        <translation>%1 کیلوبایت</translation>
-    </message>
-    <message>
-        <source>%1 MB</source>
-        <translation>%1 مگابایت</translation>
-    </message>
-    <message>
-        <source>%1 GB</source>
-        <translation>%1 گیگابایت</translation>
     </message>
     <message>
         <source>never</source>
@@ -1381,24 +1393,12 @@
         <translation>پنهان کردن</translation>
     </message>
     <message>
-        <source>total at least</source>
-        <translation>در مجموع حداقل</translation>
-    </message>
-    <message>
         <source>Recommended:</source>
         <translation>توصیه شده:</translation>
     </message>
     <message>
         <source>Custom:</source>
         <translation>سفارشی:</translation>
-    </message>
-    <message>
-        <source>normal</source>
-        <translation>نرمال</translation>
-    </message>
-    <message>
-        <source>fast</source>
-        <translation>سریع</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -1476,8 +1476,8 @@
         <translation>این یک پرداخت عادی است</translation>
     </message>
     <message>
-        <source>The Garlicoin address to send the payment to</source>
-        <translation>نشانی Garlicoin برای ارسال پرداخت به آن</translation>
+        <source>The Litecoin address to send the payment to</source>
+        <translation>نشانی Litecoin برای ارسال پرداخت به آن</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1529,8 +1529,8 @@
         <translation>ا&amp;مضای پیام</translation>
     </message>
     <message>
-        <source>The Garlicoin address to sign the message with</source>
-        <translation>نشانی Garlicoin برای امضاء پیغام با آن</translation>
+        <source>The Litecoin address to sign the message with</source>
+        <translation>نشانی Litecoin برای امضاء پیغام با آن</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1561,7 +1561,7 @@
         <translation>امضای فعلی را به حافظهٔ سیستم کپی کن</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Garlicoin address</source>
+        <source>Sign the message to prove you own this Litecoin address</source>
         <translation>برای اثبات تعلق این نشانی به شما، پیام را امضا کنید</translation>
     </message>
     <message>
@@ -1581,12 +1581,12 @@
         <translation>&amp;شناسایی پیام</translation>
     </message>
     <message>
-        <source>The Garlicoin address the message was signed with</source>
-        <translation>نشانی Garlicoin که پیغام با آن امضاء شده</translation>
+        <source>The Litecoin address the message was signed with</source>
+        <translation>نشانی Litecoin که پیغام با آن امضاء شده</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Garlicoin address</source>
-        <translation>برای حصول اطمینان از اینکه پیام با نشانی Garlicoin مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
+        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
+        <translation>برای حصول اطمینان از اینکه پیام با نشانی Litecoin مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1651,6 +1651,10 @@
         <translation>کپی شناسهٔ تراکنش</translation>
     </message>
     <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>فایل جدا شده با ویرگول(*.csv)</translation>
+    </message>
+    <message>
         <source>Label</source>
         <translation>برچسب</translation>
     </message>
@@ -1702,8 +1706,8 @@
         <translation>اجرا در پشت زمینه به‌صورت یک سرویس و پذیرش دستورات</translation>
     </message>
     <message>
-        <source>Garlicoin Core</source>
-        <translation> هسته Garlicoin </translation>
+        <source>Litecoin Core</source>
+        <translation> هسته Litecoin </translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
@@ -1712,6 +1716,10 @@
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>هنگامی که یک تراکنش در کیف پولی رخ می دهد، دستور را اجرا کن(%s در دستورات بوسیله ی TxID جایگزین می شود)</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>پذیرش اتصالات از بیرون (پیش فرض:1 بدون پراکسی یا اتصال)</translation>
     </message>
     <message>
         <source>Block creation options:</source>
@@ -1778,10 +1786,6 @@
         <translation>در حال بازبینی بلوک‌ها...</translation>
     </message>
     <message>
-        <source>Verifying wallet...</source>
-        <translation>در حال بازبینی کیف پول...</translation>
-    </message>
-    <message>
         <source>Wallet options:</source>
         <translation>گزینه‌های کیف پول:</translation>
     </message>
@@ -1834,16 +1838,8 @@
         <translation>به DNS اجازه بده تا برای addnode ، seednode و اتصال جستجو کند</translation>
     </message>
     <message>
-        <source>Loading addresses...</source>
-        <translation>بار گیری آدرس ها</translation>
-    </message>
-    <message>
         <source>(default: %s)</source>
         <translation>(پیش‌فرض %s)</translation>
-    </message>
-    <message>
-        <source>Invalid -proxy address: '%s'</source>
-        <translation>آدرس پراکسی اشتباه %s</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
@@ -1858,20 +1854,12 @@
         <translation>بار گیری شاخص بلوک</translation>
     </message>
     <message>
-        <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>به اتصال یک گره اضافه کنید و اتصال را باز نگاه دارید</translation>
-    </message>
-    <message>
         <source>Loading wallet...</source>
         <translation>بار گیری والت</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
         <translation>امکان تنزل نسخه در wallet وجود ندارد</translation>
-    </message>
-    <message>
-        <source>Cannot write default address</source>
-        <translation>آدرس پیش فرض قابل ذخیره نیست</translation>
     </message>
     <message>
         <source>Rescanning...</source>
