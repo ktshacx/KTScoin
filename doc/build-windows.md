@@ -1,19 +1,14 @@
 WINDOWS BUILD NOTES
 ====================
 
-Currently only building on Ubuntu Trusty 14.04 is supported.
-Other versions are unsupported or known to be broken (e.g. Ubuntu Xenial 16.04).
+Below are some notes on how to build Garlicoin Core for Windows.
 
-While there are potentially a number of ways to build on Windows (for example using msys / mingw-w64),
-using the Windows Subsystem For Linux is the most straightforward. If you are building with
-another method, please contribute the instructions here for others who are running versions
-of Windows that are not compatible with the Windows Subsystem for Linux.
-=======
+The options known to work for building Garlicoin Core on Windows are:
+
 * On Linux using the [Mingw-w64](https://mingw-w64.org/doku.php) cross compiler tool chain. Ubuntu Trusty 14.04 is recommended
-and is the platform used to build the Litecoin Core Windows release binaries.
+and is the platform used to build the Garlicoin Core Windows release binaries.
 * On Windows using [Windows
 Subsystem for Linux (WSL)](https://msdn.microsoft.com/commandline/wsl/about) and the Mingw-w64 cross compiler tool chain.
->>>>>>> litecoin/master
 
 Other options which may work but which have not been extensively tested are (please contribute instructions):
 
@@ -26,7 +21,7 @@ Installing Windows Subsystem for Linux
 With Windows 10, Microsoft has released a new feature named the [Windows
 Subsystem for Linux (WSL)](https://msdn.microsoft.com/commandline/wsl/about). This
 feature allows you to run a bash shell directly on Windows in an Ubuntu-based
-environment. Within this environment you can cross compile for Windows without
+environment. Within this environment you can cross compile for Wigit ndows without
 the need for a separate Linux VM or server. Note that while WSL can be installed with
 other Linux variants, such as OpenSUSE, the following instructions have only been
 tested with Ubuntu.
@@ -58,7 +53,7 @@ Cross-compilation for Ubuntu and Windows Subsystem for Linux
 ------------------------------------------------------------
 
 At the time of writing the Windows Subsystem for Linux installs Ubuntu Xenial 16.04. The Mingw-w64 package
-for Ubuntu Xenial does not produce working executables for some of the Litecoin Core applications.
+for Ubuntu Xenial does not produce working executables for some of the Garlicoin Core applications.
 It is possible to build on Ubuntu Xenial by installing the cross compiler packages from Ubuntu Zesty, see the steps below.
 Building on Ubuntu Zesty 17.04 up to 17.10 has been verified to work.
 
@@ -103,15 +98,15 @@ Ubuntu Zesty 17.04 <sup>[2](#footnote2)</sup>:
 
 Once the tool chain is installed the build steps are common:
 
-Note that for WSL the Litecoin Core source path MUST be somewhere in the default mount file system, for
-example /usr/src/litecoin, AND not under /mnt/d/. If this is not the case the dependency autoconf scripts will fail.
+Note that for WSL the Garlicoin Core source path MUST be somewhere in the default mount file system, for
+example /usr/src/garlicoin, AND not under /mnt/d/. If this is not the case the dependency autoconf scripts will fail.
 This means you cannot use a directory that located directly on the host Windows file system to perform the build.
 
 The next three steps are an example of how to acquire the source in an appropriate way.
 
     cd /usr/src
-    sudo git clone https://github.com/litecoin-project/litecoin.git
-    sudo chmod -R a+rw litecoin
+    sudo git clone https://github.com/GarlicoinOrg/Garlicoin.git
+    sudo chmod -R a+rw garlicoin
 
 Once the source code is ready the build steps are below.
 
@@ -133,15 +128,15 @@ For Ubuntu Xenial 16.04, Ubuntu Zesty 17.04 and Windows Subsystem for Linux <sup
 
     sudo update-alternatives --config i686-w64-mingw32-g++  # Set the default mingw32 g++ compiler option to posix.
 
-Note that for WSL the Litecoin Core source path MUST be somewhere in the default mount file system, for
-example /usr/src/litecoin, AND not under /mnt/d/. If this is not the case the dependency autoconf scripts will fail.
+Note that for WSL the Garlicoin Core source path MUST be somewhere in the default mount file system, for
+example /usr/src/garlicoin, AND not under /mnt/d/. If this is not the case the dependency autoconf scripts will fail.
 This means you cannot use a directory that located directly on the host Windows file system to perform the build.
 
 The next three steps are an example of how to acquire the source in an appropriate way.
 
     cd /usr/src
-    sudo git clone https://github.com/litecoin-project/litecoin.git
-    sudo chmod -R a+rw litecoin
+    sudo git clone https://github.com/GarlicoinOrg/Garlicoin.git
+    sudo chmod -R a+rw Garlicoin
 
 Then build using:
 
@@ -171,7 +166,7 @@ Footnotes
 ---------
 
 <a name="footnote1">1</a>: There is currently a bug in the 64 bit Mingw-w64 cross compiler packaged for WSL/Ubuntu Xenial 16.04 that
-causes two of the litecoin executables to crash shortly after start up. The bug is related to the
+causes two of the garlicoin executables to crash shortly after start up. The bug is related to the
 -fstack-protector-all g++ compiler flag which is used to mitigate buffer overflows.
 Installing the Mingw-w64 packages from the Ubuntu 17 distribution solves the issue, however, this is not
 an officially supported approach and it's only recommended if you are prepared to reinstall WSL/Ubuntu should
@@ -181,5 +176,5 @@ something break.
 compiler options to allow a choice between either posix or win32 threads. The default option is win32 threads which is the more
 efficient since it will result in binary code that links directly with the Windows kernel32.lib. Unfortunately, the headers
 required to support win32 threads conflict with some of the classes in the C++11 standard library in particular std::mutex.
-It's not possible to build the litecoin code using the win32 version of the Mingw-w64 cross compilers (at least not without
-modifying headers in the litecoin source code).
+It's not possible to build the garlicoin code using the win32 version of the Mingw-w64 cross compilers (at least not without
+modifying headers in the garlicoin source code).
