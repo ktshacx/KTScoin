@@ -508,8 +508,8 @@
         <translation>Inkomende transaksie</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
-        <translation>'N fatale fout het voorgekom. Litecoin kan nie meer veilig voortgaan nie en sal nou toemaak.</translation>
+        <source>A fatal error occurred. Garlicoin can no longer continue safely and will quit.</source>
+        <translation>'N fatale fout het voorgekom. Garlicoin kan nie meer veilig voortgaan nie en sal nou toemaak.</translation>
     </message>
 </context>
 <context>
@@ -702,8 +702,8 @@
         <translation>Wysig stuur adres</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Litecoin address.</source>
-        <translation>Die ingevoerde adres "%1" is nie 'n geldige Litecoin adres nie.</translation>
+        <source>The entered address "%1" is not a valid Garlicoin address.</source>
+        <translation>Die ingevoerde adres "%1" is nie 'n geldige Garlicoin adres nie.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -815,8 +815,8 @@
         <translation>Gebruik 'n persoonlike data gids:</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Garlicoin</source>
+        <translation>Garlicoin</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1180,8 +1180,8 @@
         <translation>Bedrag</translation>
     </message>
     <message>
-        <source>Enter a Litecoin address (e.g. %1)</source>
-        <translation>Voer in 'n Litecoin adres (bv. %1)</translation>
+        <source>Enter a Garlicoin address (e.g. %1)</source>
+        <translation>Voer in 'n Garlicoin adres (bv. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>

@@ -23,7 +23,7 @@ The default C++ compiler that comes with OpenBSD 5.9 is g++ 4.2. This version is
 GCC
 -------
 
-git clone https://github.com/litecoin-project/litecoin.git
+git clone https://github.com/GarlicoinOrg/Garlicoin.git
 ```
 
 See [dependencies.md](dependencies.md) for a complete overview.

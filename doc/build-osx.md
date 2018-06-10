@@ -62,9 +62,9 @@ Build Garlicoin Core
 
     or
 
-        cd ~/litecoin/src
+        cd ~/garlicoin/src
         cp litecoind /usr/local/bin/
-        cp litecoin-cli /usr/local/bin/
+        cp garlicoin-cli /usr/local/bin/
 
 Running
 -------
